@@ -3,4 +3,4 @@ def predict_label(value):
     return "positive" if value >= 0.5 else "negative"
 
 if __name__ == "__main__":
-    print("Prediction:", predict_label(0.8))
+    print("Model prediction for 0.8:", predict_label(0.8))
